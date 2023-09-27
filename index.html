@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style.css"> 
+    
+</head>
+<body>
+    <div id="wrapper">
+        <h1> Guess Joker's secret number!</h1>
+        <p>=> The Joker will pick a secret number between 1 to 100 and put it in his hat.<p>
+        <p>=> You guess what number it is.</p>
+        <p>=> If your guess is too high or too low, FunBrain will give you a hint.</p>
+        <p>=> See how many turns it takes you to win!</p>
+    </br>
+    <form class="form">
+        <label for="guessField" id="guess">Guess a Number</label>
+       
+        <input type="text" id="guessField" class="guessField">
+        <br>
+        <br>
+        <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
+        <!-- <p class="invalid"></p> -->
+        <p class="lowOrHi"></p>
+        <p class="result">
+        </form>
+        <div class="resultParas">
+             <p>Previous Guesses: <span class="guesses"></span></p>
+             <p>Guesses Remaining: <span class="lastResult">10</span></p>
+             
+        </div>
+
+    
+    </div>
+    <script src="numbergame.js"></script>
+</body>
+</html>
