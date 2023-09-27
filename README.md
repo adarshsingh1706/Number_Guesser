@@ -5,9 +5,15 @@
 <p> =>The game provides feedback on each guess, indicating whether the guess is too high or too low, helping players refine their guesses.</p>
 <h2>Features:</h2>
 <p>Randomly generated secret number between 1 and 100.</p>
+<br>
 <p>User-friendly interface with clear instructions.</p>
+<br>
 <p>Real-time feedback on each guess.</p>
+<br>
 <p>Keeps track of previous guesses.</p>
+<br>
 <p>Limited attempts to guess the correct number.</p>
+<br>
 <p>Game over message with the correct number if the player exhausts all attempts.</p>
+<br>
 <p>Congratulations message when the player correctly guesses the number.</p>
